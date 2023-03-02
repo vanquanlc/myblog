@@ -537,7 +537,7 @@
 }
 .about-infomation__instagram--item{
     height: 90px;
-    width: 30%;
+    width: 29%;
     margin: 5px;
     float: right;
     cursor: pointer;
@@ -687,7 +687,7 @@
 
 @media (max-width: 940px){
     .header__navbar{
-        justify-content:space-evenly;
+        justify-content:space-between;
     }
 
     .header__social,
@@ -814,6 +814,7 @@
         width: 33.333%;
     }
 
+    
     .slider__container--tittle{
         display: -webkit-box;
         -webkit-line-clamp: 2;
@@ -821,17 +822,22 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
-
+    
     .slider__container--date-description{
         width: 100%;
         margin: 2px;
         line-height: 20px;
         display: inline-block;
     }
-
+    
     .uper-footer__posts-item--img {
         min-width: 75px;
         height: 75px;
+    }
+
+
+    .about-infomation__social--icon{
+        margin: 20px auto 10px auto;
     }
 }
 
