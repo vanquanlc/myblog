@@ -16,8 +16,18 @@
 </head>
 <body>
     <div class="app">
+        <div class="fill" id="fill"></div>
         <header class="header" id="header">
             <nav class="header__navbar">
+                <div class="header__menu">
+                    <i class="header__menu--btn fa-solid fa-bars"></i>
+                </div>
+                 <div  class="header__navbar-list--menu" id="header__navbar-list--menu">
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                    <img src="./image/logo.webp" alt="" class="header__navbar-list--logo">
+                 </div>
+
+
                 <div class="header__social">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
@@ -44,6 +54,7 @@
             </div>
         </header>
 
+
         <div class="app__container">
             <div style="background: 100% url(./image/slider.jpg) no-repeat;" class="slider">
                 <div class="slider__move">
@@ -62,7 +73,7 @@
             </div>
 
             <div class="feedback">
-                <div class="grid">
+                <div style="margin: auto;" class="grid">
                     <div class="grid__row feedback__container">
                         <span class="feedback__tittle grid__column-4">Subscribe now to get the latest updates in your inbox!</span>
                         <div class="grid__column-3 feedback__input-section">
@@ -111,7 +122,7 @@
 
             <div class="tag-fastion">
                 <div class="grid">
-                    <div  class="grid__row ">
+                    <div  class="grid__row tag-fastion-section">
                         <div class="grid__column-8 ">
                             <div class="tag-fastion__outfits">
                                 <div class="tag-fastion__header">
@@ -465,6 +476,7 @@
             </div>
         </footer>
     </div>
+
 </body>
 
 <script src="/active/main.js"></script>
