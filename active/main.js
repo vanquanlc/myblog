@@ -39,3 +39,11 @@ btnClose.addEventListener('click', intermediaryClose)
 fill.addEventListener('click', intermediaryClose)
 
 
+
+  
+  
+  
+  
+  
+  
+  

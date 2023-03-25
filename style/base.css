@@ -21,7 +21,6 @@ html{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 .grid{
     width: 940px;
     max-width: 100%;
@@ -94,7 +93,16 @@ html{
     }
 }
 
-
+@keyframes ScrollDown{
+    from{
+        height: 0;
+        overflow: hidden;
+    }
+    to{
+        height: 20;
+        overflow: hidden;
+    }
+}
 
 /* modal */
 .modal{
