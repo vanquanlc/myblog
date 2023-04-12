@@ -39,11 +39,34 @@ btnClose.addEventListener('click', intermediaryClose)
 fill.addEventListener('click', intermediaryClose)
 
 
+// SHOP JS
 
+
+var priceProduct = document.querySelectorAll(".product-cart__under--price")
   
   
   
   
-  
-  
-  
+var testArrs = [
+    1,
+    2,
+    3
+]
+
+
+
+Array.prototype.foreach2 = function(callback){
+    var Sum = 0
+    for (let i = 0; i < this.length; i++) {
+     Sum += callback(this[i]);
+      
+    }
+    return Sum
+}
+var result = testArrs.foreach2(
+    function(testArr){
+        return testArr;
+    }
+)
+
+console.log(result);

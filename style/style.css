@@ -143,8 +143,9 @@
     width: 1px;
     background-color: #333;
 }
-.header__navbar-item:hover, .header__search i:hover{
+.header__navbar-item:hover .nav-link, .header__search i:hover{
     color: #e1b773;
+    transition: 0.5s;
 }
 
 /*  FEATURE NAV*/
@@ -166,7 +167,7 @@
     border-top: 1px solid #333;
     transition: 0.5s;
 }
-.home-shop__list--item:hover{
+.home-shop__list--item:hover .nav-child-link{
     color: #A18858;
 }
 .home-shop:hover .home-shop__list{
